@@ -1,6 +1,8 @@
 $(document).ready(function(){
+  console.log("partito");
 
-  $('#log').click(function(){
+  $("#login").click(function(){
+    console.log("ok");
     window.location.replace("login");
   });
 
